@@ -1,205 +1,383 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-        <!-- my stylesheet-->
-        <link href="css/myStylesheet.css" type="text/css" rel="stylesheet"/>
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?
-family=Oxygen:400,300,700">
+<html lang="en">
+<head>
  
- </head>
- 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <title>Welcome to My Assingment 2 Website</title>
 
+  <!-- Links to CSS and favicon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;amp;lang=en" rel="stylesheet">
+  <link href="Images/favicon.ico" rel="icon" type="image/x-icon" />
  
-    
-
-    <body>
+</head>
+<body>
     <header>
         
-        
-        
-         <!-- Navagation bar left hand side -->
-        
-        
-        <nav class="grey">
+  <nav class="white col1" id="Top">
     <div class="nav-col6">
-        
+        <!-- Navagation Bar Left Side-->
          <form class="left">
-        <a href="#" class="black-text brand-logo center"><i class="material-icons">cloud</i>Logo</a>
+             <a href="#Footer" class="black-text brand-logo center"><img src="Images/Logo.png" height="70px" width="70px"></a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
-        <li class ="active"><a href="sass.html">HTML and CSS</a></li>
-        <li class ="active"><a href="badges.html">Box Model</a></li>
-        <li class ="active"><a href="collapsible.html">Scripting Language</a></li>
+          <li><a class ="black-text active" href="#Html">HTML and CSS</a></li>
+          <li><a class ="black-text active" href="#Box">Box Model</a></li>
+          <li><a class ="black-text active" href="#Script">Scripting Language</a></li>
+        <!-- Navagation Bar Left Side-->       
         
         
       </ul>
       </form>
         <!-- Navagation bar right hand side -->
-        <a href="#" class="black-text brand-logo center"><i class="material-icons">cloud</i>Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li class ="active"><a href="sass.html">CSS links</a></li>
-        <li class ="active"><a href="badges.html"></a>JS Features</li>
-        <li class ="active"><a href="collapsible.html">Functionality</a></li>
-        
-      </ul>
+        <a href="#" class="black-text brand-logo center"><i class="material-icons"></i></a>
+      <ul id="nav-mobile" class="right">
+          <li><a class ="black-text active" href="#CSS">CSS links</a></li>
+          <li><a class ="black-text active" href="#JS">JS Features</a></li>
+          <li><a class ="black-text active" href="#Functionality">Functionality</a></li>
+        <!-- Navagation bar right hand side -->
+        </ul>
     </div>
   </nav>        
         
         </header>
-        <video id="my-video" class="video" muted loop>
-<source src="Media/demo.mp4" type="video/mp4">
-<source src="Media/demo.ogv" type="video/ogv">
-<source src="Media/demo.webm" type="video/webm">
-</video>
-
- <!--javascript-->
-<script>
-(function() {
- /**
- * Video element
- * @type {HTMLElement}
- */
- var video = document.getElementById("my-video");
-
- /**
- * Check if video can play, and play it
- */
- video.addEventListener( "canplay", function() {
- video.play();
- });
- })();
- </script>
-
-        <!-- Header Image below navagation bar -->
-         <main>
-             <!--content-->
-<div class="container">
- <div class="content">
-     <a href="" class="white-text brand-logo center">Logo</a>
- <h1 class="content_heading center">Welcome To My Assingment 2 Website</h1>
-<p class="content_teaser center">On this website is details and information regarding website design!</p>
-             </div>
-             </div>
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <div class="section white">
-            <!-- HTML and CSS Section-->
-    <div class="row container">
-      <h2 class="header">HTML and CSS</h2>
-                </div>
-             
-                    <div class="container">
-                        Html access css files by using a correct file structure there are two ways html can use css internal and also external css internal uses the &#60;style&#62; tag and external uses the &#60;link&#62; tag css (cascading style sheet) allows many things to be changed and edited, css also allows you to select a certain part of your html document for example you can select the title, head, body, div tags, containers this allows you to individually style the html code within these containers. External uses &#60;link rel=&#8221;stylesheet&#8221; type=&#8221;text/css&#8221; href=/main.css /&#62; link rel defines the file a stylesheet.<br>So href would be &#8221;href=css/main.css&#8221; if the css file is called something different then change href according to filename. The advantages of using external css are that it allows us to be able to style more than just one page at a time, inline css is within the html code, for example &#60;h1 style=&#8221;black&#8221;&#62;Lorum Ipsum&#60;/h1&#62; this means you don’t have to create a whole new document, or use &#60;style&#62; tags in the head of the html file.<br>
-                        
-                
-                    </div>
-                <div class="row container">
-            <!--Header Between page links -->
-           <div class="col s4 pull-s5">
-                
-                <div class="image">
-                    <img src="Images/header2.png">
-                    </div>
-                    </div>
-                </div>
-     </div>
-             <!-- Box Model Section-->
-        <div class="row container">
-      <h2 class="header">Box Model</h2>
-                </div>
-             
-                    <div class="container">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convinient because I require little markup to use effectively</p>
-                    </div>
-                <div class="row container">
-            <!--Header Between page links -->
-           <div class="col s4 pull-s5">
-                
-                <div class="image">
-                    <img src="Images/header2.png">
-                    </div>
-                    </div>
-                </div>
-        <!--Scripting Language Section-->
-        <div class="row container">
-      <h2 class="header">Scripting Language</h2>
-                </div>
-             
-                    <div class="container">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convinient because I require little markup to use effectively</p>
-                    </div>
-                <div class="row container">
-            <!--Header Between page links -->
-           <div class="col s4 pull-s5">
-                
-                <div class="image">
-                    <img src="Images/header2.png">
-                    </div>
-                    </div>
-                </div>
-             <div class="row container">
-      <h2 class="header">CSS Links</h2>
-                </div>
-             
-                    <div class="container">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convinient because I require little markup to use effectively</p>
-                    </div>
-                <div class="row container">
-            <!--Header Between page links -->
-           <div class="col s4 pull-s5">
-                
-                <div class="image">
-                    <img src="Images/header2.png">
-                    </div>
-                    </div>
-                </div>
-     
-     
-                </main>
-        
-        <div class="parallax-container">
-    <div class="parallax"><img src="images/parallax1.jpg"></div>
-  </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Parallax</h2>
-      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+<!-- Header Image with introduction to website-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container center">
+        <br><br>
+        <h1 class="header black-text">Welcome to my website about website design</h1>
+        <div class="row center">
+          <h5 class="header col s12 black-text">On this website is details and information regarding website design!</h5>
+        </div>
     </div>
+</div>
+<!-- Header Image with introduction to website-->
+	
+	
+      
+<!--   Text, Grid and Style for pass criteria  -->
+    <div class="parallax"><img src="Images/background2.jpeg" alt="Unsplashed background img 1"></div>
   </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/parallax2.jpg"></div>
+<div class="container">
+    <div class="section">
+     <div class="col s12 m4" id="Html">
+          <div class="icon-block">
+            <h2 class="center black-text"><i class="material-icons">code</i></h2>
+                <h5 class="center"><a href="HTML"></a>HTML and CSS</h5>
+              <p class="light"> Html access css files by using a correct file structure there are two ways html can use css internal and also external css internal uses the &#60;style&#62; tag and external uses the &#60;link&#62; tag css (cascading style sheet) allows many things to be changed and edited, css also allows you to select a certain part of your html document for example you can select the title, head, body, div tags, containers this allows you to individually style the html code within these containers. External uses &#60;link rel=&#8221;stylesheet&#8221; type=&#8221;text/css&#8221; href=/main.css /&#62; link rel defines the file a stylesheet.<br>So href would be &#8221;href=css/main.css&#8221; if the css file is called something different then change href according to filename. <br><br>The advantages of using external css are that it allows us to be able to style more than just one page at a time, inline css is within the html code, for example &#60;h1 style=&#8221;black&#8221;&#62;Lorum Ipsum&#60;/h1&#62; this means you don’t have to create a whole new document, or use &#60;style&#62; tags in the head of the html file.<br>
+            <div class="col s11 m4 l2 z-depth-3"><img src="Images/Asset1.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--   Text, Grid and Style for pass criteria  -->
+  
+    <!--  Parallax Container  -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="Images/background1.jpeg" alt="Unsplashed background img 2"></div>
   </div>
-        
-        <!-- Footer content -->
-        <footer class="grey page-footer">
+<!--   Parallax Container -->
+  
+<!--   Box Model section  -->
+    <div class="container">
+    <div class="section">
+        <div class="col s12 m4" id="Box">
+          <div class="icon-block">
+            <h2 class="center black-text"><i class="material-icons">inbox</i></h2>
+                <h5 class="center">Box Model</h5>
+                <p class="light">There are 4 types of Box Model features, these are: margin, border, padding and also the content:<br>
+                <p class="light">
+                Content - The content of the box, where text and images appear.<br><br>
+                Padding - Clears an area around the content. The padding is transparent.
+                <br><br>
+                Border - A border that goes around the padding and content.
+                <br><br>
+                Margin - Clears an area outside the border. The margin is transparent.
+                <br><br>
+                These four features allow html web pages to be styled in a more professional way margin, border,padding and content can be styled by using css external or internal, they can be styled by changing their width, height pixels, this allows things within these features to be changed accordingly. Inline css is styled on the same line as the code for example: <xmp><h1 style="color:red;margin-top:15px;">Welcome.</h1></xmp> 
+                <p class="light">h1 is a header inline css is helpful as it allows you to see clearly what's styled on that line.
+                Internal css is the &#60;style>&#60;/style> tags allows individual pages to be styled as css documents work over all web pages it also allows to  style the visited, hover, active, and link color of an anchor tag.
+                    <div class="col s11 m4 l2 center"><img src="Images/Asset2.PNG"></div>
+                <br>
+            </div>
+        </div>
+    </div>
+</div>
+<!--   Box Model section  -->    
+    
+<!--   Parallax Container -->    
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="Images/Background3.jpeg" alt="Unsplashed background img 3"></div>
+  </div>
+<!--   Parallax Container -->    
+  
+    
+    
+    
+<!--   Scripting Language section -->    
+    <div class="container">
+    <div class="section">
+        <div class="col s12 m4" id="Script">
+          <div class="icon-block">
+            <h2 class="center black-text"><i class="material-icons">description</i></h2>
+              <h5 class="center">Scripting Language</h5>
+                <p class="light"> The fundamentals of scripting languages is to allow users to interact with the computer, scripts are largely used in web pages for prompting, forms, interaction, and can also be used in conjunction with php to validate details and information the user has inputted this helps with login forms and databases. Scripting languages can also be used client side, to make programs that have multiple functions and purposes, additionally it allows you to track data from your website.<br>
+              <div class="center"><img src="Images/Asset3.jpeg" width="300px" height="300px"></div>
+            <div class="center"><img class="middle-img" src="Images/Asset4.png" width="300px" height="300px"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--   Scripting Language section -->
+    
+    
+
+<!--   Parallax Container -->       
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          </div>
+       </div>
+     </div>
+  <div class="parallax"><img src="Images/Background5.jpeg" alt="Unsplashed background img 3"></div>
+  </div>
+<!--   Parallax Container -->   
+    
+    
+    
+    
+    
+<!-- Implementation of CSS section -->    
+  <div class="container">
+    <div class="section">
+        <div class="col s12 m4" id="CSS">
+          <div class="icon-block">
+            <h2 class="center black-text"><i class="material-icons">style</i></h2>
+            <h5 class="center">Implementation of CSS</h5>
+              <br>
+              <h6 class="center">Inline CSS</h6>
+              <p class="light">
+                  Inline css has some disadvantages, this is because it mixes content(code) with the html code . This creates a hard to manage site. The inline style has to be used carefully, to use inline styles you use the style attribute in the relevant tag. 
+
+                  Inline CSS can be used for many purposes for example when it comes to creating a new project it can be used for testing as it is a lot easier to work with, its much easier to just scroll up in the html code rather than change the actual the css. It is also very quick to change to fix if you have a problem with your css. Using inline CSS helps users and service providers.<br><br> The main advantage of CSS is lower HTTP requests, which means the website loads faster.
+
+                However, inline CSS has lots of limitations, which is where external css has its advantages, if you wanted to style &#60;h1&#62; or  &#60;p&#62;  tags you would have to individually add style inside of them, this can prove to be unorganized, and more to deal with, therefore external css is very useful as you can style everything from one document.
+                <br><br>
+                <h6 class="center">External CSS</h6>
+                <p class="light">
+                    There are countless advantages for using external CSS. For example, using external CSS allows full control and design of a page, it allows you to style individual classes, containers, columns and so on. IT also keeps your website and content separate this means that it is much more or. It is much easier to reuse your CSS code if you have it in a separate file. It doesn't require you to type the same CSS code on every web page which exists, you can just simply have many pages which refer to a single CSS file with the &#60;link href="css/”Your css name here”" rel="stylesheet" type="text/css"/>.<br><br>External CSS also reduces the loading times of a website as browsers will cache the CSS therefore making loading times quicker, however if your css is big and has lots of styling elements in it, it will increase the download time of the css for that webpage, therefore making the speed of the webpage to be slow.
+                    Furthermore when someone is searching for a website through a browser, SEO(Search Engine Optimization) it is important to use external css because it helps create readable pages which will have lots of content, this can aid in making a site become more visible.
+                <br><br>
+                <h6 class="center">Internal CSS</h6>
+                <p class="light">Internal CSS
+                    Internal CSS has more advantages over inline CSS. With internal stylesheets it is still within the html code however it is within its own tags so it is more organized they’re within &#60;style>&#60;/style> tags within the &#60;head>&#60;/head> tags, internal css is usually specifically used for one in particular html page, unlike inline css where it is used for specific lines of code. 
+</p>
+
+          </div>
+        </div>
+      </div>
+<!-- Implementation of CSS section -->  
+      
+      
+      
+      
+<!--   Parallax Container -->         
+    </div>
+	<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="Images/Background4.jpeg" alt="Unsplashed background img 3"></div>
+  </div>
+<!--   Parallax Container -->       
+    
+
+<!--   Javascript Features section -->   
+  <div class="container">
+    <div class="section">
+        <div class="col s12 m4" id="JS">
+          <div class="icon-block">
+            <h2 class="center black-text"><i class="material-icons">code</i></h2>
+              <h5 class="center">JS Features</h5>
+              <p class="light">Javascript has lots of useful features there are endless amount of features and uses some of the main reasons for using Javascript features within HTML websites if you’re interested in any materialize javascript features go to: http://materializecss.com/ and click on Javascript. Javascript can also be used for tracking, website statistics, information and data, using google analytics website. Javascript is what turns a webpage from static to dynamic which creates a better quality user experience, using the materialize framework also gives dozens of features, infact you have already seen one in use, as this website uses a parallax! here's a two more for example;<br><br>
+<!--   Javascript Features section -->   
+                  
+<!-- Carousel Example -->
+<h5 class="center">Carousel:</h5>
+              <div class="container">
+                      <div class="carousel">
+          <a class="carousel-item" href="#two!"><img src="Images/Logo.png"></a>
+          <a class="carousel-item" href="#two!"><img src="Images/Logo.png"></a>
+          <a class="carousel-item" href="#two!"><img src="Images/Logo.png"></a>
+          <a class="carousel-item" href="#two!"><img src="Images/Logo.png"></a>
+          <a class="carousel-item" href="#two!"><img src="Images/Logo.png"></a>
+        </div>
+    </div>
+<!-- Carousel example -->
+  
+<br><br>
+
+<!-- Material Box example -->
+<h5 class="center">Material Box:</h5> 
+<br>
+            <div class="container">
+                <div class="section">
+                    <div class="col s12 m4" id="Html">
+                        <div class="materialboxed center z-depth-3"><img src="Images/sample-1.jpg" width="650">  
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    <br>
+<!-- Material Box example -->
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+         </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="Images/Background6.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+    <!-- Functionality Section -->
+  <div class="container">
+    <div class="section">
+<div class="col s12 m4" id="Functionality">
+          <div class="icon-block">
+            <h2 class="center black-text"><i class="material-icons">functions</i></h2>
+            <h5 class="center">Functionality</h5>
+
+            <p class="light">Scripting languages improve functionality in multiple ways for example, frontend they improve the way interactions happen, for example instead of just clicking a boring blue link with abit of scripting, it can be changed from a boring blue link to a link that changes colour when you hover over the link button, not only this also but you can change how the website reacts to scrolling and pretty much most interactions with a website, for example using materialize design you can use parallax which is a effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling. Check out the demo to get a better idea of it.
+                <br><br>
+Scripting can also be used to track data you can track all sorts of data with Google analytics it can track, things such as; Location, Real time views, Ad revenue if you have adverts on your website, Total views all together, Average time spent on the website, Average amount of pages people click and so on, this is very useful when it comes to the website developer as it allows the developer to judge whether the website is being successful.<br><br>
+
+There are lots of scripting languages some of the most popular are: 
+ Java is one of the most popular languages for building back-ends for modern enterprise-web applications. ...
+Js - Java Script mostly embedded with frameworks, google analytics.
+PHP - Hypertext Preprocessor used when validating forms to a server, it generates the code is and is then executed on the server, generating HTML which is then sent to the client. 
+
+
+<br>
+          </div>
+        </div>
+      </div>
+<!-- Functionality Section -->
+    </div>
+<div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+         </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="Images/Background6.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+  <div class="container">
+    <div class="section">
+<div class="col s12 m4" id="Functionality">
+          <div class="icon-block">
+            <h2 class="center black-text"><i class="material-icons">check</i></h2>
+            <h5 class="center">Scripting in different browsers</h5>
+
+            <p class="light">
+There are dozens of browser in use today which means that when it comes to creating and building a website it is best to be tested within the most popular browsers to create a equal experience when going on the website through all browsers, the differences in browsers aren’t just the search engines there are other things such as how a browser's interprets client side scripts, how the browser renders the content, the easiest way to see this is in the browser detection code. Browser detection will check with the browser directly to see which make and model it is, and will display on screen what browser it is. This allows you to choose which code to run on your browser. It looks something like this:
+                
+                <img src="Images/Asset6.png">
+                
+            <br><br>
+Browsers have different levels of submission with styleheets. This means that some Stylesheet features are supported and some aren't depending on what browser you’re using. 
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+ <!-- Footer content -->
+        <footer class="page-footer grey lighten-4">
           <div class="container">
             <div class="row">
-              <div class="col l5 s4">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <div class="col l16 s12">
+                <h5 class="black-text">Website Designed By Bradley Playdon.</h5>
+                <p class="black-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
               </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+              <div class="col l4 offset-12 s12">
+                <h5 class="black-text">Links</h5>
                 <ul>
-                  <li><a class="white-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="white-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
+                  <li><a class="black-text text-lighten-3" href="#Html">HTML And CSS</a></li>
+                  <li><a class="black-text text-lighten-3" href="#Box">Box Model</a></li>
+                  <li><a class="black-text text-lighten-3" href="#Script">Scripting Language</a></li>
+                  <li><a class="black-text text-lighten-3" href="#CSS">CSS Links</a></li>
+                  <li><a class="black-text text-lighten-3" href="#JS">JS Features</a></li>
+                  </ul>
+                    </div>
+            </div>
+          </div>
+  <!-- Footer content -->
+            
+            
+    <!-- Footer Copyright and Header button -->
+          <div class="footer-copyright" id="Footer">
+               <div class="container center"><a href="#Top"><img src="Images/Logo.png" height="40px" width="40px">
+                   
+              <a class="black-text text-lighten-4 left" href="#!">Bradley Playdon ©2017</a>
+            
+            
+                     </a>
               </div>
-            </div>
           </div>
-          <div class="footer-copyright">
-            <div class="container">©2017 Copyright Text
-            <a class="white-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-          </div>
+    <!-- Footer Copyright and Header button -->
         </footer>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-    </body>
-  </html>
+    
+      
+    
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript">
+
+          $(document).ready(function(){
+        $('.carousel').carousel();
+           });
+    </script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+    $('.materialboxed').materialbox();
+  });
+        
+    </script>
+
+  </body>
+</html>

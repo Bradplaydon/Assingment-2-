@@ -10018,8 +10018,4 @@ if (Vel) {
 
     $.error('Method ' + methodOrOptions + ' does not exist on jQuery.tap-target');
   };
-    $(document).ready(function(){
-      $('.parallax').parallax();
-    });
-        
 })(jQuery);
